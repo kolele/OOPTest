@@ -3,6 +3,8 @@ package com.kole;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Burger kobasBurger = new Burger("KobasBurger", "Somerolldawg");
+        kobasBurger.addCarrot();
+        kobasBurger.showTotalPrice();
     }
 }
