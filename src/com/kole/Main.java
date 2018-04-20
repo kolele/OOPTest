@@ -7,6 +7,8 @@ public class Main {
         kobasBurger.addCarrot();
         kobasBurger.showTotalPrice();
 
+        System.out.println("**********************************************************************");
+
         HealthyBurger healthy = new HealthyBurger("Healthy","Brown rye roll");
         healthy.addCarrot();
         healthy.addLettuce();
@@ -15,5 +17,12 @@ public class Main {
         healthy.addFifthAddtion();
         healthy.addSixthAddtion();
         healthy.showTotalPrice();
+
+        System.out.println("**************************************************************************");
+        DeluxeHamburger deluxe = new DeluxeHamburger("Deluxe", "Deluxeroll");
+        deluxe.addCarrot();
+        deluxe.coke();
+        deluxe.chips();
+        deluxe.showTotalPrice();
     }
 }
